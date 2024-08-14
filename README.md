@@ -24,7 +24,7 @@ cp -r mkproject/template ~/.config/mkproject/
 2. Remove or make any necessary changes to the template files.
 3. Place a .env or copy the .env from the install directory to make necessary changes such as the default branch name, initial commit message, or command to run after completetion.
 
-The default $runafter command is `code .` which will open the project in VSCode. Some may choose to change this to `nvim README.md` or `vim .` to open the project in NeoVim or Vim or anything else you like, maybe `gh repo create --public $name && git push`
+The default $RUNAFTER command is `code .` which will open the project in VSCode. Some may choose to change this to `nvim README.md` or `vim .` to open the project in NeoVim or Vim or anything else you like, maybe `gh repo create --public $name && git push`
 
 ## Run
 
